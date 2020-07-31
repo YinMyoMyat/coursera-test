@@ -1,0 +1,148 @@
+body{
+
+	
+	font-size: 16px;
+	
+	
+	font-family: 'Harrington', sans-serif;
+
+	
+}
+
+
+
+
+#header-nav {
+	background-color: #ff9966;
+	border-radius: 0;
+	border: 0;
+}
+
+
+.navbar-brand h1{
+	
+	color: black;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px pink;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+
+
+
+ #chicken, #beef, #sushi{
+ 	background-color: pink;
+ 	opacity: .6;
+ 	height: 100%;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+ 	padding-bottom: 20px;
+ 	position: relative;
+ 	margin-bottom: 50px;
+ 
+ }
+
+ #chicken h3, #beef h3, #sushi h3{
+ 	color: black;
+
+ }
+
+ #sc, #sb, #ss{
+ 	position: absolute;
+ 	bottom: 0;
+ 	right: 0;
+ }
+ 
+
+
+#nav-list li{
+	border: 2px solid black;
+	background-color: #cc4400;
+	margin-bottom: 0px;
+
+}
+#nav-list p{
+	color: yellow;
+}
+
+#nav-list p:hover{
+	text-shadow: 1px 1px 3px black;
+	color: white;
+
+	display: block;
+	font-size: 1.5em;
+
+}
+
+/*md device*/
+@media (min-width: 992px){
+	body{
+		background: url("https://images.unsplash.com/photo-1514995428455-447d4443fa7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60") no-repeat;
+		background-size: cover;
+	}
+}
+
+
+
+/*sm device only*/
+@media (min-width: 768px) and (max-width: 991px){
+
+ body{
+ 	background-color: 	#e3cfcf;
+ 	
+}
+}
+
+/** extra small devices only**/
+@media (max-width: 767px){
+	body{
+ 	background-color: 	#e3cfcf;
+ 	
+}
+ .navbar-brand{
+ 	padding-top: 10px;
+ 	height: 80px;
+ }
+ .navbar-brand h1{
+ 	/*Restaurant name*/
+ 	padding-top: 10px;
+ 	font-size: 5vw;/* 1vw=1% of the viewport width
+ 					This vw unit is responsive*/
+ }
+
+ 
+
+ #collaspsable-nav a{
+ 	/*Collapsed nav menu glyph*/
+ 	font-size: 1.2em;
+ }
+ #collapsable-nav a span{
+ 	font-size: 1em;
+ 	margin-right: 5px;
+ }
+
+
+ /*End header*/
+
+
+
+
+}
